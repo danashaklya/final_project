@@ -1,0 +1,30 @@
+
+button2 {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  padding: 13px 30px 13px;
+  outline: 3;
+  border: 0.8px solid rgb(127, 61, 153);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(252, 23, 23, 0);
+}
+
+button2:hover {
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px rgba(252, 181, 252, 0.6),
+    7px 7px 20px 0px rgba(153, 74, 160, 0.133),
+    4px 4px 5px 0px rgba(187, 98, 190, 0.067);
+}
+
+
+@media only screen and (min-width: 600px) {
+    .logout-btn {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: flex-end;
+    }
+}

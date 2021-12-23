@@ -1,0 +1,83 @@
+button:disabled {
+    opacity: 0.2;
+}
+
+button:disabled:hover {
+    opacity: 0.2;
+    cursor: default;
+}
+
+.primary {
+    display: inline-block;
+    padding: 12px 10px;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(107, 96, 103);
+    background-color: rgb(255, 219, 254);
+    border: none;
+    border-radius: 1px;
+    box-shadow:  0 3px rgb(209, 204, 204);
+    font-family:fantasy;
+    font-weight: lighter;
+ 
+   
+}
+
+
+.tertiary {
+    display: inline-block;
+    padding: 12px 10px;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(107, 96, 103);
+    background-color: rgb(255, 219, 254);
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 3px rgb(209, 204, 204); 
+    font-family:fantasy;
+    font-weight: lighter;
+ 
+}
+
+.quaternary {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(236, 169, 216); 
+    border: 1px solid #dd95dd;
+    text-align:right;
+  
+}
+
+
+.secondary {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #000;
+    background-color: rgb(121, 72, 72);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 3rem;
+    font-weight: bold;
+    border: rgb(138, 22, 22) 1px solid;
+
+}
+.secondary:hover, .primary:hover, .tertiary:hover .quaternary:hover {
+    opacity: 0.8;
+}
+
+.secondary:active, .primary:active, .tertiary:active {
+    background-color: rgb(226, 175, 224);
+    box-shadow: 0 5px rgb(207, 207, 207);
+    transform: translateY(2px);
+}
